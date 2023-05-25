@@ -1,0 +1,34 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.grid div{
+    background-color: rgb(249, 249, 249);
+    padding: 1em;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,33%);
+    height: 750px;
+}
+
+#verde{
+    background-color: green;
+}
+#rojo{
+    background-color: red;
+}
+.alineacion{
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+
+
